@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0284c7" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>ManaDesign — AI Prompt & Template Studio</title>
+  <meta name="description"
+    content="AI-powered prompt and template studio for social media marketing. Upload photos, get copyable text-to-image prompts, generate imagery, and buy prompt systems." />
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ManaDesign" />
+  <meta property="og:title" content="ManaDesign — AI Prompt & Template Studio" />
+  <meta property="og:description" content="Turn photos into production-grade Midjourney & Gemini prompts. Design festive posters with personal photo cutouts and multilingual greetings." />
+  <meta property="og:image" content="/og-landing.svg" />
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ManaDesign — AI Prompt & Template Studio" />
+  <meta name="twitter:description" content="Turn photos into production-grade Midjourney & Gemini prompts. Design festive posters with personal photo cutouts and multilingual greetings." />
+  <meta name="twitter:image" content="/og-landing.svg" />
+  <!-- Prevent theme flash script -->
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('manadesign-theme');
+        var isDark = theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches) || (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if (isDark) {
+          document.documentElement.classList.add('dark');
+          if (document.body) document.body.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+          if (document.body) document.body.classList.remove('dark');
+        }
+      } catch (e) { }
+    })();
+  </script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body
+  class="min-h-screen bg-slate-50 text-slate-900 antialiased selection:bg-sky-500 selection:text-white dark:bg-slate-950 dark:text-slate-100 transition-colors duration-200">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

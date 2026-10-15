@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="festGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0b02"/>
+      <stop offset="50%" stop-color="#2d1205"/>
+      <stop offset="100%" stop-color="#0b0714"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <radialGradient id="diyaGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#festGrad)"/>
+  <circle cx="950" cy="300" r="300" fill="url(#diyaGlow)"/>
+
+  <!-- Ornate Border Frame -->
+  <rect x="24" y="24" width="1152" height="582" rx="32" fill="none" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.3"/>
+  <rect x="36" y="36" width="1128" height="558" rx="24" fill="none" stroke="#f97316" stroke-width="1" stroke-opacity="0.2"/>
+
+  <!-- Top Decorative Toran / Garland Motif -->
+  <path d="M40 40 Q 150 90, 260 40 Q 370 90, 480 40 Q 590 90, 700 40 Q 810 90, 920 40 Q 1030 90, 1140 40" stroke="#f59e0b" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Brand tag -->
+  <g transform="translate(100, 110)">
+    <rect width="210" height="38" rx="19" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="24" y="25" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700">🪔 ManaDesign Festival Studio</text>
+  </g>
+
+  <!-- Title Headline -->
+  <text x="100" y="250" fill="url(#goldGrad)" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="900" letter-spacing="-1">
+    Trending Festival Posters
+  </text>
+  <text x="100" y="330" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" letter-spacing="-0.5">
+    Personalized Greetings &amp; Photo Cutouts
+  </text>
+
+  <!-- Subtitle -->
+  <text x="100" y="405" fill="#fed7aa" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="400">
+    Happy Diwali • Navratri • Ganesh Chaturthi • Ugadi • Pongal • Eid • Christmas
+  </text>
+  <text x="100" y="445" fill="#fdba74" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400">
+    Available in English, हिन्दी, తెలుగు, &amp; தமிழ் with 1-click Midjourney &amp; Imagen prompt generation.
+  </text>
+
+  <!-- Right Visual Card Placeholder Mockup -->
+  <g transform="translate(820, 140)">
+    <rect width="260" height="340" rx="24" fill="#0f172a" stroke="#fbbf24" stroke-width="2" filter="drop-shadow(0 20px 30px rgba(0,0,0,0.7))"/>
+    <rect x="20" y="20" width="220" height="180" rx="16" fill="#1e293b"/>
+    <text x="45" y="115" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800">✨ DIWALI</text>
+    <rect x="20" y="220" width="220" height="40" rx="8" fill="#f8fafc"/>
+    <text x="35" y="246" fill="#0f172a" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800">Your Name &amp; Photo</text>
+    <rect x="20" y="280" width="220" height="36" rx="10" fill="#f59e0b"/>
+    <text x="75" y="303" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Open in Studio →</text>
+  </g>
+
+  <!-- Bottom CTA strip -->
+  <g transform="translate(100, 505)">
+    <rect width="360" height="52" rx="26" fill="#f59e0b"/>
+    <text x="40" y="33" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800">Customize Your Poster Free →</text>
+  </g>
+</svg>
